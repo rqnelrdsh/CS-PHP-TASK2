@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Doors</title>
+    <style>
+        /* Container to center the doors */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 75px;
+        }
+
+        /* Style for the door */
+        .door {
+            width: 220px;
+            height: 375px;
+            background-color: #8b5d3b;
+            border: 2px solid #4b2e18;
+            position: relative;
+            cursor: pointer;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease-in-out;
+            margin: 2px 0 210px 0;
+        }
+
+        .door:hover {
+            transform: scale(1.1);
+        }
+
+        .door:active {
+            transform: scale(1.05);
+        }
+
+        /* Door handle style */
+        .handle {
+            position: absolute;
+            bottom: 175px;
+            right: 12%;
+            width: 20px;
+            height: 20px;
+            background-color: #b0ab9d;
+            border-radius: 50%;
+        }
+
+        .door span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+        }
+        .title{
+            font-size: 70px;
+            padding: 20px 0px 20px 325px;
+            background-color: #ccb570;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Magic Door Adventures<h1>
+    <div class="container">
+        <!-- Door 1 -->
+        <div class="door" onclick="window.location.href='door1.php'">
+            <span>Door 1</span>
+            <div class="handle"></div>
+        </div>
+
+        <!-- Door 2 -->
+        <div class="door" onclick="window.location.href='door2.php'">
+            <span>Door 2</span>
+            <div class="handle"></div>
+        </div>
+
+        <!-- Door 3 -->
+        <div class="door" onclick="window.location.href='door3.php'">
+            <span>Door 3</span>
+            <div class="handle"></div>
+        </div>
+    </div>
+
+</body>
+</html>
