@@ -1,0 +1,11 @@
+<?php
+
+ echo "<h1>You Opened Door 2!: The Last Light of Eldrathiel</h1>";
+ echo "<p>In the realm of Eldrathiel, a land where elves and fairies lived in harmony for centuries, a mysterious darkness began to spread. The fairies, once joyful and full of light, had started retreating into the shadows, and the magic of the land was fading. Liora, a young elven mage, was determined to find the cause and restore the ancient balance between her people and the fairies.</p>";
+ echo "<p>Liora set off to find Queen Talia, the last remaining fairy queen, who had gone into hiding. Along her journey, she encountered Thistle, a mischievous fairy who had long distrusted the elves. Though wary of each other, they joined forces to uncover the truth behind the disturbance.</p>";
+echo "<p>In the depths of the forest, Liora and Thistle discovered a hidden ruin, where an ancient prophecy revealed that a dark elf had betrayed the fairies long ago, stealing their magic to create a shadow that now threatened the entire realm. The prophecy warned that only the union of elves and fairies could restore balance.</p>";
+ echo "<p>They traveled to the fairy palace, where Liora and Thistle confronted Queen Talia, who was weakened by the stolen magic. Standing beside her was Alaric, a dark elf who had once been an ally but had fallen to darkness. He had stolen the fairy magic and used it to build his own power.</p>";
+ echo "<p>In a fierce battle, Liora faced Alaric, calling upon the elven magic of the Enchanted Grove. Thistle, using his own fairy magic, aided Liora as they worked together to break Alaric’s dark hold. The combined power of their magic shattered his darkness and returned the stolen energy to the fairies.</p>";
+ echo "<p>With Alaric’s defeat, the curse was lifted, and the magic of the fairies was restored. Queen Talia, now free from Alaric’s influence, stood strong, her wings glowing with renewed power. The elves and fairies, united once again, celebrated the victory and renewed their ancient bond.</p>";
+ echo "<p>Eldrathiel flourished once more, the magic of both elves and fairies thriving together. Liora and Thistle, now friends, looked upon the land with hope, knowing that their unity would protect the realm for generations to come.</p>";
+?>
